@@ -96,9 +96,12 @@ cargo run --release -- --help
 }
 ```
 
+If the location could not be found, the error kind is `LocationNotFound`.
+
 # Additional functionality
 
 The service also allows to automatically open Google Maps with the coordinates it gets.
+
 `http://hostname/map?location=350+w+georgia+st,+Vancouver`
 
 # Supported platforms
